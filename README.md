@@ -5,8 +5,8 @@ A simple console-based Java application to manage patient records in a clinic. I
 ---
 
 ## Group Member
-1.Mayuri Vijay Surve
-2.Pragati Santosh Gore
+1.Mayuri Vijay Surve  
+2.Pragati Santosh Gore  
 3.Vaishnavi Prashant Shete
 
 ## 📌 Features
