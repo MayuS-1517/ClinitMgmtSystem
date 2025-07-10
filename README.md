@@ -29,9 +29,9 @@ A simple console-based Java application to manage patient records in a clinic. I
 
 ---
 
-## 🧾 Database Table
+```## 🧾 Database Table
 
-```sql
+
 CREATE TABLE patient (
     id SERIAL PRIMARY KEY,
     name VARCHAR(100),
@@ -39,28 +39,19 @@ CREATE TABLE patient (
     disease VARCHAR(100)
 );```
 
-## 🧾 Project Structure
-```/clinic-management
+```## 🧾 Project Structure
+/clinic-management
 │
 ├── DBConnection.java       # Handles database connection
 ├── PatientDAO.java         # Handles patient-related DB operations
 └── Main.java               # Contains main menu and user input```
 
 
-⚙ How to Run
+## ⚙ How to Run (Step-by-Step)
 
-Clone the repository
-
-git clone https://github.com/YourUsername/clinic-management.git
-Set up PostgreSQL and create the patient table as shown above.
-
-Update your DB credentials in DBConnection.java.
-
-Compile and run:
-
-javac Main.java
-java Main
-
+### 1️⃣ Clone or Download the Project
+- Option 1: Clone using Git (if Git is installed)
+-
 ##Console
 <img width="290" height="138" alt="image" src="https://github.com/user-attachments/assets/17d0a729-f197-4eb0-b6f8-677ea00f39aa" />
 
