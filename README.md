@@ -61,6 +61,10 @@ Compile and run:
 javac Main.java
 java Main
 
+##Console
+<img width="290" height="138" alt="image" src="https://github.com/user-attachments/assets/17d0a729-f197-4eb0-b6f8-677ea00f39aa" />
+
+
 ## 🧾 contact
 Name:Mayuri Surve
 email:mayurusurve1517@gmai.com
