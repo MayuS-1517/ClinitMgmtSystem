@@ -4,6 +4,11 @@ A simple console-based Java application to manage patient records in a clinic. I
 
 ---
 
+## Group Member
+1.Mayuri Vijay Surve
+2.Pragati Santosh Gore
+3.Vaishnavi Prashant Shete
+
 ## 📌 Features
 
 - ✅ Add new patient
@@ -40,5 +45,24 @@ CREATE TABLE patient (
 ├── DBConnection.java       # Handles database connection
 ├── PatientDAO.java         # Handles patient-related DB operations
 └── Main.java               # Contains main menu and user input```
+
+
+⚙ How to Run
+
+Clone the repository
+
+git clone https://github.com/YourUsername/clinic-management.git
+Set up PostgreSQL and create the patient table as shown above.
+
+Update your DB credentials in DBConnection.java.
+
+Compile and run:
+
+javac Main.java
+java Main
+
+## 🧾 contact
+Name:Mayuri Surve
+email:mayurusurve1517@gmai.com
 
 
