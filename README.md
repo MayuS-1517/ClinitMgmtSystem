@@ -1,63 +1,64 @@
 # 🏥 Clinic Management System (Java Console + JDBC)
 
-A simple console-based Java application to manage patient records in a clinic. It demonstrates basic CRUD operations using Core Java, OOP principles, and JDBC for database interaction.
+A simple console-based Java application to manage patient records in a clinic.  
+This project demonstrates basic **CRUD operations** using **Core Java**, **Object-Oriented Programming (OOP)** principles, and **JDBC** for database interaction with **PostgreSQL**.
 
 ---
 
-## Group Member
-1.Mayuri Vijay Surve  
-2.Pragati Santosh Gore  
-3.Vaishnavi Prashant Shete
+## 👥 Group Members
+
+1. Mayuri Vijay Surve  
+2. Pragati Santosh Gore  
+3. Vaishnavi Prashant Shete  
+
+---
 
 ## 📌 Features
 
-- ✅ Add new patient
-- ✅ View all patients
-- ✅ Console-based menu system
-- ✅ Connected to PostgreSQL using JDBC
+- ✅ Add new patient  
+- ✅ View all patients  
+- ✅ Update patient details  
+- ✅ Delete patient record  
+- ✅ Console-based menu system  
+- ✅ Connected to PostgreSQL using JDBC  
 
 ---
 
 ## 🛠 Technologies Used
 
-| Technology   | Description                       |
-|--------------|-----------------------------------|
-| Java         | Core Java (OOP concepts)          |
-| JDBC         | Java Database Connectivity        |
-| PostgreSQL   | Relational database               |
-| Git & GitHub | Version control and code hosting  |
+| Technology     | Description                       |
+|----------------|-----------------------------------|
+| Java           | Core Java, OOP Concepts           |
+| JDBC           | Java Database Connectivity        |
+| PostgreSQL     | Relational Database               |
+| Git & GitHub   | Version Control & Collaboration   |
 
 ---
 
-```## 🧾 Database Table
+## ⚙️ How to Run the Project
 
+1. Clone the repository:
 
-CREATE TABLE patient (
+   ```bash
+   git clone https://github.com/yourusername/clinic-management-system.git
+   cd clinic-management-system
+   
+🗃 Database Schema (PostgreSQL)
+
+CREATE TABLE patients (
     id SERIAL PRIMARY KEY,
     name VARCHAR(100),
     age INT,
-    disease VARCHAR(100)
-);```
+    gender VARCHAR(10),
+    contact VARCHAR(15)
+);
 
-```## 🧾 Project Structure
-/clinic-management
-│
-├── DBConnection.java       # Handles database connection
-├── PatientDAO.java         # Handles patient-related DB operations
-└── Main.java               # Contains main menu and user input```
+📷 Sample Output
+<img width="290" height="138" alt="image" src="https://github.com/user-attachments/assets/caaf95b1-ae78-42ee-89e1-b99f1fddc20f" />
 
+## 📩 Contact
 
-## ⚙ How to Run (Step-by-Step)
+For any queries, contact:
 
-### 1️⃣ Clone or Download the Project
-- Option 1: Clone using Git (if Git is installed)
--
-##Console
-<img width="290" height="138" alt="image" src="https://github.com/user-attachments/assets/17d0a729-f197-4eb0-b6f8-677ea00f39aa" />
-
-
-## 🧾 contact
-Name:Mayuri Surve
-email:mayurusurve1517@gmai.com
-
-
+- **Mayuri Vijay Surve** – mayurisurve1517@gmail.com  
+- GitHub: [@mayurisurve](https://github.com/MayuS-1517)
