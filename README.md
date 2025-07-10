@@ -45,12 +45,12 @@ This project demonstrates basic **CRUD operations** using **Core Java**, **Objec
    
 🗃 Database Schema (PostgreSQL)
 
-CREATE TABLE patients (
-    id SERIAL PRIMARY KEY,
-    name VARCHAR(100),
-    age INT,
-    gender VARCHAR(10),
-    contact VARCHAR(15)
+CREATE TABLE patients (  
+    id SERIAL PRIMARY KEY,  
+    name VARCHAR(100),  
+    age INT,  
+    gender VARCHAR(10),  
+    contact VARCHAR(15)  
 );
 
 📷 Sample Output
