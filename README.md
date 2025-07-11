@@ -53,7 +53,7 @@ CREATE TABLE patients (
     contact VARCHAR(15)  
 );
 
-📷 Sample Output
+📷 Sample Output  
 <img width="290" height="138" alt="image" src="https://github.com/user-attachments/assets/caaf95b1-ae78-42ee-89e1-b99f1fddc20f" />
 
 ## 📩 Contact
